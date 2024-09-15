@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+.result{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 2px dashed rgb(102, 115, 119);
+}
+.result p{
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Playpen+Sans';
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: rgba(0, 166, 255, 0.906);
+}
+@media screen and (max-width:576px) {
+    .result p{
+        text-align: center;
+    }
+  }
+  @media screen and (max-width:437px) {
+    .result p{
+        text-align: center;
+    }
+  }
+@media screen and (max-width:350px) {
+    .result p{
+        font-size: 15px;
+        text-align: center;
+    }
+  }
