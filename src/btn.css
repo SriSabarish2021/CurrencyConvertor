@@ -8,6 +8,7 @@
     margin-top: 30px;
     margin-bottom: 20px;
     border: 2px dashed rgb(102, 115, 119);
+    position: relative;
 }
 .result p{
     padding: 15px;
